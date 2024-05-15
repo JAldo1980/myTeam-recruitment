@@ -1,7 +1,7 @@
 import React from "react";
 import ContainerOne from "./components/ContainerOne";
 import Nav from "./components/Nav";
-
+import Hero from "./components/Hero";
 import "./App.css";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     <>
       <ContainerOne>
         <Nav />
+        <Hero />
       </ContainerOne>
     </>
   );

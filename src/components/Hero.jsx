@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <div className="text-container grid grid-cols-2 pb-40">
         <div>
-          <h1 className="text-8xl text-white">
+          <h1 className="text-8xl text-white z-10">
             Find the best <span className="custom-color">talent</span>
           </h1>
         </div>

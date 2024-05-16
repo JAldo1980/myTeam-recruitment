@@ -10,6 +10,14 @@
   background-color: #014e56;
 }
 
+.containerFour-bg {
+  background-color: #f67e7e;
+}
+
+.containerFive-bg {
+  background-color: #002429;
+}
+
 .text-container {
   margin: 0 auto;
   max-width: 1000px;
@@ -21,4 +29,8 @@
 
 .custom-color-2 {
   color: #79c8c7;
+}
+
+.custom-color-3 {
+  color: #889698;
 }

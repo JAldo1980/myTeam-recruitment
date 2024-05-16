@@ -3,9 +3,9 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="text-container grid grid-cols-2 pb-40">
+      <div className="text-container grid grid-cols-2 pb-40 gap-12">
         <div>
-          <h1 className="text-8xl text-white z-10">
+          <h1 className="text-8xl text-white z-10 font-bold">
             Find the best <span className="custom-color">talent</span>
           </h1>
         </div>

@@ -34,3 +34,30 @@
 .custom-color-3 {
   color: #889698;
 }
+
+.livvic-semibold {
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.hover-border-transition {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.hover-border-transition::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f67e7e;
+  transition: width 0.3s ease-in-out;
+}
+
+.hover-border-transition:hover::after {
+  width: 100%;
+}

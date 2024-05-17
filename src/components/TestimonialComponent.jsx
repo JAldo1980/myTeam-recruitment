@@ -4,12 +4,12 @@ const TestimonialComponent = () => {
   return (
     <div className="py-20 text-container">
       <div className="text-center">
-        <h3 className="text-5xl text-white font-bold">
+        <h3 className="text-3xl sm:text-5xl text-white font-bold">
           Delivering real results for top companies. Some of our{" "}
           <span className="custom-color-2">success stories.</span>
         </h3>
       </div>
-      <div className="pt-20 flex gap-12">
+      <div className="pt-20 flex flex-col sm:flex-row gap-12">
         <div className="flex flex-col text-center items-center">
           <p className="text-white ">
             “The team perfectly fit the specialized skill set required. They

@@ -4,9 +4,9 @@ const InfoComponent = () => {
   return (
     <>
       <div>
-        <div className="text-container grid grid-cols-2 py-20 gap-12">
+        <div className="text-container grid sm:grid-cols-2 py-20 gap-12">
           <div>
-            <h2 className="text-5xl text-white font-bold z-10">
+            <h2 className="text-3xl sm:text-5xl text-white font-bold z-10">
               Build &amp; manage distributed teams like no one else.
             </h2>
           </div>

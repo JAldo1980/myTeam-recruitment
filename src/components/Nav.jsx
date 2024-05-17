@@ -1,18 +1,27 @@
+// src/components/Nav.js
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Button from "./Button";
 
 const Nav = () => {
   return (
     <div className="text-container pt-20 pb-20 flex justify-between">
       <div className="flex justify-between gap-10 items-center">
-        <img src="/public/logo.svg" className="w-40 h-10" alt="" />
+        <img src="/public/logo.svg" className="w-40 h-10" alt="Logo" />
         <div className="hidden sm:flex sm:items-center sm:gap-4">
-          <h4 className="text-white cursor-pointer hover-border-transition">
+          <NavLink
+            to="/"
+            className="text-white cursor-pointer hover-border-transition"
+            end
+          >
             Home
-          </h4>
-          <h4 className="text-white cursor-pointer hover-border-transition">
+          </NavLink>
+          <NavLink
+            to="/about"
+            className="text-white cursor-pointer hover-border-transition"
+          >
             About
-          </h4>
+          </NavLink>
         </div>
       </div>
       <div className="hidden sm:block">

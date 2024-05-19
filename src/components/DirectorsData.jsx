@@ -2,32 +2,32 @@ import React from "react";
 
 const DirectorsData = [
   {
-    img: "/public/avatar-nikita.jpg",
+    img: "avatar-nikita.jpg",
     name: "Nikita Marks",
     title: "Founder & CEO",
   },
   {
-    img: "/public/avatar-christian.jpg",
+    img: "avatar-christian.jpg",
     name: "Christian Duncan",
     title: "Co-founder & COO",
   },
   {
-    img: "/public/avatar-cruz.jpg",
+    img: "avatar-cruz.jpg",
     name: "Cruz Hamer",
     title: "Co-founder & CTO",
   },
   {
-    img: "/public/avatar-drake.jpg",
+    img: "avatar-drake.jpg",
     name: "Drake Heaton",
     title: "Business Development Lead",
   },
   {
-    img: "/public/avatar-griffin.jpg",
+    img: "avatar-griffin.jpg",
     name: "Griffin Wise",
     title: "Lead Marketing",
   },
   {
-    img: "/public/avatar-arthur.jpg",
+    img: "avatar-arthur.jpg",
     name: "Arthur Wise",
     title: "Lead Developer",
   },

@@ -12,7 +12,7 @@ const InfoComponent = () => {
           </div>
           <div className="flex flex-col gap-10">
             <div className="flex gap-6 items-center">
-              <img src="/public/icon-person.svg" alt="person-icon" />
+              <img src="icon-person.svg" alt="person-icon" />
               <div className="flex flex-col">
                 <h4 className="custom-color font-bold text-xl">
                   Experienced Individuals
@@ -24,7 +24,7 @@ const InfoComponent = () => {
               </div>
             </div>
             <div className="flex gap-6 items-center">
-              <img src="/public/icon-cog.svg" alt="cog-icon" />
+              <img src="icon-cog.svg" alt="cog-icon" />
               <div className="flex flex-col">
                 <h4 className="custom-color font-bold text-xl">
                   Easy to Implement
@@ -36,7 +36,7 @@ const InfoComponent = () => {
               </div>
             </div>
             <div className="flex gap-6 items-center">
-              <img src="/public/icon-chart.svg" alt="chart-icon" />
+              <img src="icon-chart.svg" alt="chart-icon" />
               <div className="flex flex-col">
                 <h4 className="custom-color font-bold text-xl">
                   Enhanced Productivity

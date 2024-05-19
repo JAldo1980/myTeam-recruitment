@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="text-center sm:text-left">
           {" "}
           {/* Added text-left class to align content to the left */}
-          <img src="/public/logo.svg" className="w-40 h-10" />
+          <img src="logo.svg" className="w-40 h-10" />
           <div className="pt-4 flex gap-6">
             <p className="text-white cursor-pointer hover-border-transition">
               Home

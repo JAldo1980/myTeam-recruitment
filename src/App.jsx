@@ -14,21 +14,21 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import "./App.css";
+import ContainerSix from "./components/ContainerSix";
+import Directors from "./components/Directors";
 
 function App() {
   return (
     <Router>
-      <ContainerOne>
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Hero />} />
-        </Routes>
-      </ContainerOne>
       <Routes>
         <Route
           path="/"
           element={
             <>
+              <ContainerOne>
+                <Nav />
+                <Hero />
+              </ContainerOne>
               <ContainerTwo>
                 <InfoComponent />
               </ContainerTwo>
@@ -44,8 +44,35 @@ function App() {
             </>
           }
         />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route
+          path="/about"
+          element={
+            <>
+              <ContainerOne>
+                <Nav />
+                <About />
+              </ContainerOne>
+              <ContainerSix>
+                <Directors />
+              </ContainerSix>
+
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <>
+              <ContainerOne>
+                <Nav />
+              </ContainerOne>
+
+              <Contact />
+              <Footer />
+            </>
+          }
+        />
       </Routes>
     </Router>
   );

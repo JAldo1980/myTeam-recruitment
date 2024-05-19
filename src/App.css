@@ -18,6 +18,10 @@
   background-color: #002429;
 }
 
+.containerSix-bg {
+  background-color: #004047;
+}
+
 .text-container {
   margin: 0 auto;
   max-width: 1000px;
@@ -60,4 +64,8 @@
 
 .hover-border-transition:hover::after {
   width: 100%;
+}
+
+.director-bg {
+  background-color: #012f34;
 }

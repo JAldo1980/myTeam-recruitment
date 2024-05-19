@@ -7,7 +7,7 @@ const Directors = () => {
       <h2 className="text-center text-5xl font-bold text-white">
         Meet the directors
       </h2>
-      <div className="mt-12 grid grid-cols-3 gap-12">
+      <div className="mt-12 grid grid-cols-2 gap-12 sm:grid-cols-3 sm:gap-12">
         {DirectorsData.map((data, index) => (
           <div
             className="flex flex-col items-center director-bg p-6"

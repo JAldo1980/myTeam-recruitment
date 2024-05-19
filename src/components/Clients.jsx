@@ -8,7 +8,7 @@ const Clients = () => {
         <h3 className="text-center text-5xl font-bold text-white items-center">
           Some of our clients
         </h3>
-        <div className="py-12 flex flex justify-between text-container">
+        <div className="py-12 flex flex-wrap gap-8 sm:flex-row justify-between text-container">
           <div className="w-24 image-container">
             <img src="/public/logo-the-verge.png" alt="The Verge" />
           </div>

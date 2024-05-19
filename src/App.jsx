@@ -64,9 +64,6 @@ function App() {
               <ContainerFour>
                 <CTAComponent />
               </ContainerFour>
-              <ContainerFive>
-                <Footer />
-              </ContainerFive>
             </>
           }
         />
@@ -76,10 +73,11 @@ function App() {
             <>
               <ContainerOne>
                 <Nav />
+                <Contact />
               </ContainerOne>
-
-              <Contact />
-              <Footer />
+              <ContainerFive>
+                <Footer />
+              </ContainerFive>
             </>
           }
         />

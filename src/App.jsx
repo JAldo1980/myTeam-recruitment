@@ -64,6 +64,9 @@ function App() {
               <ContainerFour>
                 <CTAComponent />
               </ContainerFour>
+              <ContainerFive>
+                <Footer />
+              </ContainerFive>
             </>
           }
         />

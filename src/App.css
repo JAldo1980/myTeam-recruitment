@@ -69,3 +69,9 @@
 .director-bg {
   background-color: #012f34;
 }
+
+.image-container img {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}

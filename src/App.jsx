@@ -5,6 +5,8 @@ import ContainerTwo from "./components/ContainerTwo";
 import ContainerThree from "./components/ContainerThree";
 import ContainerFour from "./components/ContainerFour";
 import ContainerFive from "./components/ContainerFive";
+import ContainerSix from "./components/ContainerSix";
+import ContainerSeven from "./components/ContainerSeven";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import InfoComponent from "./components/InfoComponent";
@@ -13,8 +15,9 @@ import CTAComponent from "./components/CTAComponent";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Clients from "./components/Clients";
 import "./App.css";
-import ContainerSix from "./components/ContainerSix";
+
 import Directors from "./components/Directors";
 
 function App() {
@@ -55,8 +58,15 @@ function App() {
               <ContainerSix>
                 <Directors />
               </ContainerSix>
-
-              <Footer />
+              <ContainerSeven>
+                <Clients />
+              </ContainerSeven>
+              <ContainerFour>
+                <CTAComponent />
+              </ContainerFour>
+              <ContainerFive>
+                <Footer />
+              </ContainerFive>
             </>
           }
         />

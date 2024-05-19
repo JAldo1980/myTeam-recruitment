@@ -10,19 +10,19 @@ const Clients = () => {
         </h3>
         <div className="py-12 flex flex-wrap gap-8 sm:flex-row justify-between text-container">
           <div className="w-24 image-container">
-            <img src="/public/logo-the-verge.png" alt="The Verge" />
+            <img src="logo-the-verge.png" alt="The Verge" />
           </div>
           <div className="w-24 image-container">
-            <img src="/public/logo-jakarta-post.png" alt="The Jakarta Post" />
+            <img src="logo-jakarta-post.png" alt="The Jakarta Post" />
           </div>
           <div className="w-24 image-container">
-            <img src="/public/logo-the-guardian.png" alt="The Guardian" />
+            <img src="logo-the-guardian.png" alt="The Guardian" />
           </div>
           <div className="w-24 image-container">
-            <img src="/public/logo-tech-radar.png" alt="TechRadar" />
+            <img src="logo-tech-radar.png" alt="TechRadar" />
           </div>
           <div className="w-24 image-container">
-            <img src="/public/logo-gadgets-now.png" alt="Gadgets Now" />
+            <img src="logo-gadgets-now.png" alt="Gadgets Now" />
           </div>
         </div>
       </div>

@@ -24,7 +24,7 @@ const Nav = () => {
   return (
     <div className="text-container pt-20 pb-20 flex justify-between">
       {/* Logo */}
-      <img src="/public/logo.svg" className="w-40 h-10" alt="Logo" />
+      <img src="logo.svg" className="w-40 h-10" alt="Logo" />
 
       {/* Render MobileNav if condition met! */}
       {isSmallWindow && <MobileNav />}

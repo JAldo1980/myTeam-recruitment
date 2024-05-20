@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -11,12 +12,20 @@ const Footer = () => {
           {/* Added text-left class to align content to the left */}
           <img src="logo.svg" className="w-40 h-10" />
           <div className="pt-4 flex gap-6">
-            <p className="text-white cursor-pointer hover-border-transition">
+            <NavLink
+              to="/"
+              className="text-white cursor-pointer hover-border-transition"
+              end
+            >
               Home
-            </p>
-            <p className="text-white cursor-pointer hover-border-transition">
+            </NavLink>
+
+            <NavLink
+              to="/about"
+              className="text-white cursor-pointer hover-border-transition"
+            >
               About
-            </p>
+            </NavLink>
           </div>
         </div>
         <div>

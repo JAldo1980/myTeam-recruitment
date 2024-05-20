@@ -24,8 +24,18 @@ const MobileNav = () => {
         <div className="absolute top-16 right-0 bg-white border rounded shadow">
           {/* Example menu items */}
           <ul>
-            <li>Menu Item 1</li>
-            <li>Menu Item 2</li>
+            <li>Home</li>
+            <li>About</li>
+            <NavLink
+              to="/contact"
+              className="text-white cursor-pointer hover-border-transition"
+            >
+              <Button
+                type="button"
+                className="mt-4 sm:mt-0 border-black rounded-full border-2 py-2 px-6 text-black cursor-pointer hover:text-white hover:bg-black duration-300"
+                label="Contact Us"
+              />
+            </NavLink>
           </ul>
         </div>
       ) : null}

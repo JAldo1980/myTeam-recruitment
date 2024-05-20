@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Button from "./Button";
+import { NavLink } from "react-router-dom";
 
 const MobileNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   function handleClick() {
-    setIsMenuOpen(!isMenuOpen); // Toggle menu state
+    setIsMenuOpen(!isMenuOpen);
   }
 
   return (
@@ -15,27 +16,48 @@ const MobileNav = () => {
           className="sm:hidden border rounded-full border-2 py-2 px-6 text-white cursor-pointer hover:text-black hover:bg-white duration-300"
           type="button"
           label="Menu"
-          onClick={handleClick} // Pass handleClick function as onClick prop
+          onClick={handleClick}
         />
       </div>
 
       {/* Render menu items if menu is open */}
       {isMenuOpen ? (
-        <div className="absolute top-16 right-0 bg-white border rounded shadow">
+        <div className="fixed top-0 right-0 w-1/3 h-screen pt-10 bg-white border-l shadow-lg z-50">
+          <div
+            className="absolute top-5 right-5 cursor-pointer font-bold hover:text-red-800"
+            onClick={handleClick}
+          >
+            X
+          </div>
           {/* Example menu items */}
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <NavLink
-              to="/contact"
-              className="text-white cursor-pointer hover-border-transition"
-            >
-              <Button
-                type="button"
-                className="mt-4 sm:mt-0 border-black rounded-full border-2 py-2 px-6 text-black cursor-pointer hover:text-white hover:bg-black duration-300"
-                label="Contact Us"
-              />
-            </NavLink>
+          <ul className="flex flex-col p-4">
+            <li>
+              <NavLink
+                to="/"
+                className="text-black cursor-pointer py-2 hover:text-blue-500"
+                end
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/about"
+                className="text-black cursor-pointer py-2 hover:text-blue-500"
+                end
+              >
+                About
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact" className="text-black cursor-pointer py-2">
+                <Button
+                  type="button"
+                  className="mt-4 sm:mt-0 border-black rounded-full border-2 py-2 px-6 text-black cursor-pointer hover:text-white hover:bg-black duration-300"
+                  label="Contact Us"
+                />
+              </NavLink>
+            </li>
           </ul>
         </div>
       ) : null}

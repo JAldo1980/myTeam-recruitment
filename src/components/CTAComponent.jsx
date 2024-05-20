@@ -11,7 +11,7 @@ const CTAComponent = () => {
         </h3>
 
         <NavLink
-          to="/about"
+          to="/contact"
           className="text-white cursor-pointer hover-border-transition"
         >
           <Button

@@ -22,7 +22,7 @@ const MobileNav = () => {
 
       {/* Render menu items if menu is open */}
       {isMenuOpen ? (
-        <div className="fixed top-0 right-0 w-1/3 h-screen pt-10 bg-white border-l shadow-lg z-50">
+        <div className="fixed top-0 right-0 w-1/2 h-screen pt-10 bg-white border-l shadow-lg z-50">
           <div
             className="absolute top-5 right-5 cursor-pointer font-bold hover:text-red-800"
             onClick={handleClick}
@@ -34,7 +34,7 @@ const MobileNav = () => {
             <li>
               <NavLink
                 to="/"
-                className="text-black cursor-pointer py-2 hover:text-blue-500"
+                className="text-black cursor-pointer py-2 hover-border-transition"
                 end
               >
                 Home
@@ -43,7 +43,7 @@ const MobileNav = () => {
             <li>
               <NavLink
                 to="/about"
-                className="text-black cursor-pointer py-2 hover:text-blue-500"
+                className="text-black cursor-pointer py-2 hover-border-transition"
                 end
               >
                 About

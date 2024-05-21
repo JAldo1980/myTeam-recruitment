@@ -36,8 +36,24 @@ const Footer = () => {
             <br /> Call Us : 949-833-7432
           </p>
         </div>
-        <div className="text-center sm:text-right">
-          {" "}
+        <div className="flex flex-col items-center text-center sm:text-right">
+          <div className="flex gap-2">
+            <img
+              src="/facebook-icon.png"
+              className="cursor-pointer"
+              alt="facebook"
+            />
+            <img
+              src="/pinterest-icon.png"
+              className="cursor-pointer"
+              alt="pinterest"
+            />
+            <img
+              src="/twitter-icon.png"
+              className="cursor-pointer"
+              alt="twitter"
+            />
+          </div>{" "}
           {/* Added text-right class to align content to the right */}
           <p className="pt-4 text-white ">
             Copyright 2020. All Rights Reserved

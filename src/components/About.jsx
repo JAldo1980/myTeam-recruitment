@@ -1,5 +1,4 @@
 import React from "react";
-import Directors from "./Directors";
 
 const About = () => {
   return (
